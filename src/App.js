@@ -2,8 +2,9 @@ import SearchBar from "./compontents/SearchBar"
 import searchImages from './api'
 
 export default function App() {
-  const handleSubmit = (term) => {
-    searchImages(term)
+  const handleSubmit = async (term) => {
+    let result = await searchImages(term)
+    console.log(result)
   }
 
   return ( 
