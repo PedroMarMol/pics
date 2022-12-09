@@ -1,8 +1,9 @@
 import SearchBar from "./compontents/SearchBar"
+import searchImages from './api'
 
 export default function App() {
   const handleSubmit = (term) => {
-    console.log('Do a search with', term)
+    searchImages(term)
   }
 
   return ( 
