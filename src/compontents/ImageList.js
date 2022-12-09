@@ -1,3 +1,3 @@
-export default function ImageList() {
-    return <div>ImageList</div>
+export default function ImageList({ images }) {
+    return <div>ImageList: {images.length}</div>
   }
