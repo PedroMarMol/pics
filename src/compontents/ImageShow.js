@@ -1,3 +1,3 @@
-export default function ImageShow() {
-    return <div>ImageShow</div>
+export default function ImageShow({ image }) {
+    return <div>{image.id}</div>
   }
